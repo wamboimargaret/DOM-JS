@@ -14,11 +14,14 @@ let list = document.createElement('li');
 list.innerHTML = 'Orange'
 document.getElementById('fruList').appendChild(list);
 
+
+
+
 let newveg = document.createElement('li')
 newveg.innerHTML = 'Brocolli',
 document.getElementById('vegList').appendChild(newveg);
 
-document.getElementById('container').style.border=" thin solid black";
+document.getElementById('container').style.border=" thin solid green";
 document.getElementById('container').style.borderRadius = '20px'
 document.getElementById('container').style.padding = '30px'
 
